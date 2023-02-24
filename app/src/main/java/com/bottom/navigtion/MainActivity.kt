@@ -31,7 +31,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
 @Composable
 fun MainScreen() {
     val navController = rememberNavController()
@@ -46,7 +45,6 @@ fun MainScreen() {
         backgroundColor = colorResource(R.color.colorPrimaryDark) // Set background color to avoid the white flashing when you switch between screens
     )
 }
-
 @Preview(showBackground = true)
 @Composable
 fun MainScreenPreview() {
